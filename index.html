@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+
+	<title>Trylogin</title>
+
+		<head>
+
+			<style>
+				h1 {
+				    color: #3333FF;
+				}
+				h3 {
+				    color: #00FF00;
+				}
+			input[type=text], select {
+			    width: 80%;
+			    padding: 12px 20px;
+			    margin: 8px 0;
+			    display: inline-block;
+			    border: 1px solid #FF00FF;
+			    border-radius: 4px;
+			    box-sizing: border-box;
+			}
+			input[type=password], select {
+			    width: 80%;
+			    padding: 12px 20px;
+			    margin: 8px 0;
+			    display: inline-block;
+			    border: 1px solid #FF00FF;
+			    border-radius: 4px;
+			    box-sizing: border-box;
+			}
+			input[type=submit] {
+			    width: 80%;
+			    background-color: #00FFFF;
+			    color: blue;
+			    padding: 14px 20px;
+			    margin: 8px 0;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+			    background-color: #45a049;
+			}
+
+			div {
+			    border-radius: 5px;
+			    background-color: #FFCCFF;
+			    padding: 20px;
+			}
+			</style>
+		</head>
+		<body>
+		<h1>Welcome To Trylogin!</h1>
+		<h3>Please proceed to test your login</h3>
+
+	<form action="second.html">
+  		First name:<br>
+  		<input type="text" name="firstname" required="First name required"><br>
+  		Last name:<br>
+  		<input type="text" name="lastname" required="Last name required"><br>
+		Username: <br>
+		<input type="text" name="user" required="Username required">
+		<br><br>
+		Email: <br>
+		<input type="text" name="email" id="email" value="" required="Email required" />
+		<br><br>
+		Password: <br>
+		<input type="password" name="password" size="6">
+		<br><br>
+  		<input type="submit" value="Submit" >
+	</form>
+		</body>
+	</html>
